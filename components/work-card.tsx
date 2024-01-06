@@ -11,7 +11,7 @@ export function WorkCard({ title, description, active }: WorkCardProps) {
 	return (
 		<div
 			className={cn(
-				' self-center px-8 space-y-3 max-w-xs p-6 rounded-3xl hover:bg-theme_primary-3 transition-colors duration-300',
+				' self-center shadow-md px-8 space-y-3 max-w-xs p-6 rounded-3xl hover:bg-theme_primary-3 transition-colors duration-300',
 				active ? 'bg-theme_primary-3' : ''
 			)}>
 			<h3 className='text-lg font-semibold'>{title}</h3>

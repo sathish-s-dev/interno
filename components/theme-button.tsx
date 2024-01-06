@@ -6,7 +6,7 @@ export const Button = ({ title, className, ...restProps }: ButtonProps) => {
 	return (
 		<LibButton
 			size='lg'
-			className={cn(className)}
+			className={cn(className, 'hover:animate-pulse')}
 			{...restProps}>
 			{title}
 			<span className='ml-2 text-theme_primary-2'>→</span>

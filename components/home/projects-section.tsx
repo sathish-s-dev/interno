@@ -57,7 +57,7 @@ function ProjectCard({
 	cardImg: string;
 }) {
 	return (
-		<div className='rounded-tr-[50px] overflow-clip space-y-3'>
+		<div className='rounded-tr-[50px] overflow-clip space-y-3 shadow-sm'>
 			<div className='max-w-[350px]'>
 				<Image
 					src={cardImg}

@@ -4,7 +4,7 @@ import { Button } from './ui/button';
 
 export function ContactSection() {
 	return (
-		<Container className='bg-[#292F36] justify-center items-center md:max-w-4xl w-[90%] mx-auto  h-full flex my-6 py-16 md:py-20 flex-col text-slate-200 space-y-4 rounded-[75px] font-inter'>
+		<Container className='bg-theme_primary-1 shadow-lg justify-center items-center md:max-w-4xl w-[90%] mx-auto  h-full flex my-6 py-16 md:py-20 flex-col text-slate-200 space-y-4 rounded-[75px] font-inter'>
 			<h3 className='text-3xl font-dmsans'>Wanna Join the Interno?</h3>
 			<p className='text-slate-300 text-sm'>
 				It is a long established fact will be distracted.
