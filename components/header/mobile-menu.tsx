@@ -13,7 +13,7 @@ export function MobileMenu() {
 	return (
 		<>
 			<button
-				className='bg-transparent p-2'
+				className='bg-transparent p-2 flex sm:hidden'
 				onClick={() => setShowMobileMenu(!showMobileMenu)}>
 				{showMobileMenu ? <Cross1Icon /> : <HamburgerMenuIcon />}
 			</button>
